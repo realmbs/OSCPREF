@@ -315,5 +315,5 @@ nmap -sU -p 53,67,68,69,123,161,500 <target>
 nmap -sC -p <open-ports> <target>
 
 # Vulnerability scanning
-nmap --script vuln -p <open-ports> <target>
+nmap --script vulners -p <open-ports> <target>
 ```
