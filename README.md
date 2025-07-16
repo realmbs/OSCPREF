@@ -1,13 +1,23 @@
-OSCP Reference Repository
+# OSCP Reference Repository
+
 A comprehensive, searchable reference for OSCP preparation focusing on quick command syntax and flags.
 
-Quick Search Guide
+## Table of Contents
 
-GitHub Search: Press Ctrl+K (or Cmd+K on Mac) anywhere in the repo to search all files
-Browser Search: Use Ctrl+F within any file to find specific commands or flags
-Search Tips: Use keywords like nmap, gobuster, privilege escalation, windows, linux, etc.
+- [OSCP Reference Repository](#oscp-reference-repository)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Search Guide](#quick-search-guide)
+  - [Repository Structure](#repository-structure)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
 
-Repo Structure
+## Quick Search Guide
+
+- **GitHub Search**: Press `Ctrl+K` (or `Cmd+K` on Mac) anywhere in the repo to search all files
+- **Browser Search**: Use `Ctrl+F` within any file to find specific commands or flags
+- **Search Tips**: Use keywords like `nmap`, `gobuster`, `privilege escalation`, `windows`, `linux`, etc.
+
+## Repository Structure
 ├── README.md                           # This file - main navigation hub
 ├── reconnaissance/
 │   ├── network-scanning.md             # nmap, masscan, rustscan
@@ -42,3 +52,20 @@ Repo Structure
     ├── file-transfers.md               # Multiple file transfer methods
     ├── one-liners.md                   # Useful one-liner commands
     └── troubleshooting.md              # Common issues and solutions
+
+## Getting Started
+
+1. **Clone the repository**: `git clone <repo-url>`
+2. **Browse by category**: Navigate to the folder that matches your current task
+3. **Search efficiently**: Use the search features mentioned above
+4. **Bookmark frequently used commands**: Keep your most-used references handy
+
+## Contributing
+
+This is a living document. Feel free to:
+- Add new commands and techniques
+- Improve existing documentation
+- Fix any errors or outdated information
+- Suggest new categories or organization improvements
+
+---
