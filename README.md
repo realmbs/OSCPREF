@@ -8,6 +8,7 @@ A comprehensive, searchable reference for OSCP preparation focusing on quick com
   - [Table of Contents](#table-of-contents)
   - [Quick Search Guide](#quick-search-guide)
   - [Repository Structure](#repository-structure)
+    - [Directory Descriptions](#directory-descriptions)
   - [Getting Started](#getting-started)
   - [Contributing](#contributing)
 
@@ -18,6 +19,9 @@ A comprehensive, searchable reference for OSCP preparation focusing on quick com
 - **Search Tips**: Use keywords like `nmap`, `gobuster`, `privilege escalation`, `windows`, `linux`, etc.
 
 ## Repository Structure
+
+```
+OSCPREF/
 ├── README.md                           # This file - main navigation hub
 ├── reconnaissance/
 │   ├── network-scanning.md             # nmap, masscan, rustscan
@@ -52,6 +56,17 @@ A comprehensive, searchable reference for OSCP preparation focusing on quick com
     ├── file-transfers.md               # Multiple file transfer methods
     ├── one-liners.md                   # Useful one-liner commands
     └── troubleshooting.md              # Common issues and solutions
+```
+
+### Directory Descriptions
+
+- **📁 reconnaissance/** - Tools and techniques for information gathering and target enumeration
+- **📁 exploitation/** - Attack vectors, payloads, and exploitation frameworks
+- **📁 post-exploitation/** - Privilege escalation, persistence, and lateral movement techniques
+- **📁 tools/** - Specific tool configurations, shortcuts, and usage guides
+- **📁 payloads/** - Ready-to-use shells, payloads, and code snippets
+- **📁 methodology/** - Systematic approaches, checklists, and reporting templates
+- **📁 quick-reference/** - Fast lookup tables, one-liners, and troubleshooting guides
 
 ## Getting Started
 
