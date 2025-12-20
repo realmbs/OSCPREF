@@ -1,7 +1,0 @@
-# Steganography
-
-## steghide
-
-## binwalk
-
-## strings
