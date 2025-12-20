@@ -31,3 +31,23 @@ UDP scan, very slow due to UDP being stateless protocol
 -sV
 nmap -sS 192.168.1.1. -p445 -sV
 version and service scan 
+
+-p-
+nmap -sS 192.168.1.1 -p-
+scans all ports
+
+-oA
+nmap -sS 192.168.1.1. -oA output
+stores results in all formats (.gnmap, .xml, .nmap), filename starts with output
+
+-oN
+nmap -sS 192.168.1.1. -oN output
+stores results as output.nmap
+
+-oG
+nmap -sS 192.168.1.1. -oG output
+stores results in output.gnmap (greppable)
+
+-oX
+nmap -sS 192.168.1.1. -oX output
+stores results in output.xml
