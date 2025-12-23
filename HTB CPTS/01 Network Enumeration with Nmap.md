@@ -81,5 +81,3 @@ timing / agressiveness
 -D RND:<5>
 decoy method, nmap generates random IPs and inserts them into IP header
 nmap -sS -T4 192.168.1.1 -D RND:5
-
-# NSE
